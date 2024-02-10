@@ -1,7 +1,6 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
 
-
 body {
     font-family: 'Fuzzy Bubbles', sans-serif;
     margin: 0; /* Remover margens padrão do corpo */
@@ -11,8 +10,7 @@ body {
     background-repeat: no-repeat; /* Evitar repetição da imagem */
     background-position: center bottom; /* Centralizar a imagem */
     width: 100vw;
-    height: 100vh;
-        
+    height: 100vh;     
 }
 
 h1 {
@@ -23,8 +21,7 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     width:300px;
-    background-color: lightcyan; 
-       
+    background-color: lightcyan;      
 }
 
 #container {
@@ -33,6 +30,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0 auto; /* Centraliza o container horizontalmente */
+    
 }
 
 #container p {
@@ -45,31 +43,16 @@ h1 {
     padding: 10px 20px;
     color: rgb(0, 0, 0);
     border-radius: 10px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 50px;
-}
-
-#container p.active {
-    background-color: lightcoral;
-}
-
-#container p:hover {
-    background-color: rgb(220, 220, 220);
-}
-
-@media (max-widht: 600px) {
-    h1 {
-        font-size: 24px;
-    }
-
-    #container p {
-        font-size: 16px;
-        padding: 10px; 
-        width: 100px; 
-        height: 50px;
-    }
+    margin-bottom: 10px;  
     
 }
+
+#container p {
+        font-size: 16px;
+        padding: 50px; 
+        width: 100px; 
+        height: 10px;
+    }
+    
     
 

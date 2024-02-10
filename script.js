@@ -7,14 +7,7 @@ function toggleColor(element, color) {
 
     element.classList.add('active');
     element.style.backgroundColor = color;
-    document.body.style.backgroundColor = color;
-}
-
-function resetColors() {
-    var paragraphs = document.querySelectorAll('#container p');
-    paragraphs.forEach(function(p) {
-        p.classList.remove('active');
-        p.style.backgroundColor = ''; // Restaura o background original
-    });
 
 }
+
+
