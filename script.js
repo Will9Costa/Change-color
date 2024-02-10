@@ -17,6 +17,4 @@ function resetColors() {
         p.style.backgroundColor = ''; // Restaura o background original
     });
 
-    // Reseta o background do body
-    document.body.style.backgroundColor = ' lightcoral'; // Cor padrão
 }
