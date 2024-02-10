@@ -4,7 +4,7 @@ url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display
 body {
     font-family: 'Fuzzy Bubbles', sans-serif;
     margin: 20px;
-    background-color: rgb(170, 182, 172);
+    background-color: lightcoral;
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     width:300px;
-    background-color: rgb(249, 251, 123); 
+    background-color: lightcyan; 
        
 }
 
@@ -31,8 +31,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(47, 255, 0);
-    background-color: rgb(253, 254, 142);
+    border: 1px solid lightblue;
+    background-color: white;
     font-size: 20px;
     padding: 10px 20px;
     color: rgb(0, 0, 0);
@@ -47,7 +47,7 @@ h1 {
 }
 
 #container p:hover {
-    background-color: rgb(255, 242, 0);
+    background-color: rgb(233, 233, 233);
 }
 
 @media (max-widht: 600px) {
