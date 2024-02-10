@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat; /* Evitar repetição da imagem */
     background-position: center bottom; /* Centralizar a imagem */
     width: 100vw;
-    height: 100vh;     
+    height: 100%;     
 }
 
 h1 {
