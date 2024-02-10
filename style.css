@@ -7,9 +7,11 @@ body {
     margin: 0; /* Remover margens padrão do corpo */
     padding: 0; /* Remover preenchimento padrão do corpo */
     background-image: url(./Foguete.jpg);
-    background-size: 80% 100%; /* Ajustar a imagem para cobrir a tela inteira */
+    background-size: cover; /* Ajustar a imagem para cobrir a tela inteira */
     background-repeat: no-repeat; /* Evitar repetição da imagem */
     background-position: center; /* Centralizar a imagem */
+    width: 100vw;
+    height: 100vh;
         
 }
 
