@@ -1,0 +1,48 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+body {
+    font-family: 'Fuzzy Bubbles', sans-serif;
+    margin: 20px;
+    background-color: rgb(170, 182, 172);
+}
+h1 {
+    border: 1px solid rgb(4, 9, 255);
+    color:blue;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(249, 251, 123); 
+       
+}
+
+#container p {
+    border: 1px solid rgb(47, 255, 0);
+    background-color: rgb(253, 254, 142);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 700;
+    margin-bottom: 10px;
+}
+
+#container p:hover {
+    background-color: rgb(255, 242, 0);
+}
+
+@media (max-widht: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    #container p {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+}
+    
+
